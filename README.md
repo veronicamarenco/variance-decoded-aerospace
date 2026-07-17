@@ -39,7 +39,7 @@ Then it tells the real story: "Here's what's bad. Here's what's good risk manage
    pip install -r requirements.txt
 ```
 
-2. **Prepare your data** (purchase orders + actual spend):
+2. **Prepare data** (purchase orders + actual spend):
 ```python
    import pandas as pd
    from src.variance_engine import VarianceAnalyzer
@@ -100,7 +100,7 @@ That "$25M overspend" is actually $18M market-driven (titanium surge), $8M risk 
 - `data/` — Sample aerospace procurement data
 
 ### Next Steps
-1. Load your procurement and actual spend data
+1. Load procurement and actual spend data
 2. Run variance decomposition
 3. Identify material variances (>5% of total)
 4. Trace to root causes
