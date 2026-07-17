@@ -32,7 +32,7 @@ Then it tells the real story: "Here's what's bad. Here's what's good risk manage
 - Auto-generated board presentations
 - Material variance flagging (identify the 20% that drives 80%)
 
-### How to Use
+### Steps taken:
 
 1. **Install dependencies**:
 ```bash
